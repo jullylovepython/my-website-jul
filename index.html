@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>My Profile - JUL</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap" rel="stylesheet" />
+
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+body {
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+    color: #333;
+    }
+
+header {
+    background-color: #76d7c4;
+    padding: 20px 0;
+    text-align: center;
+    color: white
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+
+    .profile-pic {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+.profile-pic img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #76d7c4;
+    }
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    ul {
+        padding-left: 20px;
+        line-height: 1.8;
+    }
+    .gallery img {
+        width: 200px;
+        height: 150px;
+        object-fit: scale-down;
+    }
+
+    .gallery img:hover {
+    transform: scale(1.05);
+    }
+
+    @media (max-width: 600px) {
+    .gallery img {
+        width: 100px;
+        height: 100px;
+        object-fit:none;
+        background-color: white;
+}
+
+
+
+    .profile-pic img {
+        width: 150px;
+        height: 150px;
+    }
+
+
+    p, ul {
+        font-size: 16px;
+    }
+    }
+</style>
+</head>
+
+<body>
+<header>
+    Welcome to My Profile
+</header>
+
+<div class="container">
+    <div id="capture-area"></div>
+    <div class="profile-pic">
+<img src="images/IMG_4648.jpeg" alt="JUL's Photo">
+    </div>
+
+    <p>สวัสดีค่ะ ฉันชื่อ <strong>JUL</strong> และฉันมีความหลงใหลในโลกของ Coding และ Computer Engineering 🧠💻 <br> 
+        ยินดีต้อนรับเข้าสู่หน้าโปรไฟล์ส่วนตัวของฉัน
+    </p>
+
+    <h2>🎯 MY HOBBIES</h2>
+    <ul>
+    <li>ดู Netflix K-drama</li>
+    <li>ฟังเพลง</li>
+    <li>ท่องเที่ยว</li>
+    </ul>
+
+    <h2>💖 MY FAVORITE CHARACTERS</h2>
+
+    <div class="gallery">
+    <img src="images/IMG_7581.jpg" alt="JIN-U">
+    <img src="images/OIP.jpg" alt="LIGHTNING MCQUEEN">
+    <img src="images/IMG_7580.jpg" alt="BAYMAX">
+    <img src="images/IMG_7582.jpg" alt="BEAUTY AND THE BEAST">
+    </div>
+
+    <ul>
+    <li>LIGHTNING MCQUEEN 🚗</li>
+    <li>JIN-V (BTS) 🎤</li>
+    <li>BAYMAX 🤖</li>
+    <li>BEAUTY AND THE BEAST 💕</li>
+    </ul>
+</div>
+</body>
+</html>
